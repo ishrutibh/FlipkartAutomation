@@ -1,0 +1,42 @@
+<suite name="flipkart">
+	
+	<parameter name="url" value="https://www.flipkart.com/" />
+	<test name="flipkart.com">
+		<parameter name="browserName" value="chrome"/>
+		<classes>
+			<class name="Basic.ParamaterTest">
+				<methods>
+					<include name="AStartBrowser"/>
+					<include name="BLaunchApp"/>
+					<include name="CSearchIteam"/>
+				</methods>
+			</class>
+		</classes>
+	
+	</test>
+	<test name="Veryify">
+		<parameter name="browserName" value="edge"/>
+		<classes>
+			<class name="Basic.ParamaterTest">
+				<methods>
+					<include name="AStartBrowser"/>
+					<include name="BLaunchApp"/>	
+					<include name="CSearchIteam"/>
+					<include name="DPlaceOrder"/>
+					</methods>
+			</class>
+		</classes>
+		</test>
+		<test name="logincart">
+		<parameter name="browserName" value="firefox"/>
+		<classes>
+			<class name="Basic.ParamaterTest">
+				<methods>
+					
+					<include name="ELogin"/>	
+					<include name="Fquit"/>						
+					</methods>
+			</class>
+		</classes>
+		</test>
+	</suite>
