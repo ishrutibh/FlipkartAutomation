@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [flipkart]">
+  <parameter name="sleepTime" value="5000"/>
   <parameter name="url" value="https://www.flipkart.com/"/>
-  <test thread-count="5" name="Veryify(failed)">
-    <parameter name="browserName" value="edge"/>
+  <test thread-count="5" name="logincart(failed)">
+    <parameter name="browserName" value="firefox"/>
     <classes>
       <class name="Basic.ParamaterTest">
         <methods>
-          <include name="DPlaceOrder"/>
-          <include name="CSearchIteam"/>
+          <include name="ELogin"/>
         </methods>
       </class> <!-- Basic.ParamaterTest -->
     </classes>
-  </test> <!-- Veryify(failed) -->
+  </test> <!-- logincart(failed) -->
 </suite> <!-- Failed suite [flipkart] -->

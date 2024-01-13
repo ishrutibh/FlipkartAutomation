@@ -1,43 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-12T19:55:07 IST" name="flipkart" finished-at="2024-01-12T19:55:43 IST" duration-ms="35934">
+  <suite started-at="2024-01-13T11:26:05 IST" name="flipkart" finished-at="2024-01-13T11:26:32 IST" duration-ms="26559">
     <groups>
     </groups>
-    <test started-at="2024-01-12T19:55:07 IST" name="flipkart.com" finished-at="2024-01-12T19:55:19 IST" duration-ms="11456">
+    <test started-at="2024-01-13T11:26:05 IST" name="Veryify" finished-at="2024-01-13T11:26:26 IST" duration-ms="21086">
       <class name="Basic.ParamaterTest">
-        <test-method signature="AStartBrowser(java.lang.String)[pri:0, instance:Basic.ParamaterTest@4550bb58]" started-at="2024-01-12T19:55:07 IST" name="AStartBrowser" finished-at="2024-01-12T19:55:11 IST" duration-ms="3882" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AStartBrowser -->
-        <test-method signature="BLaunchApp(java.lang.String)[pri:0, instance:Basic.ParamaterTest@4550bb58]" started-at="2024-01-12T19:55:11 IST" name="BLaunchApp" finished-at="2024-01-12T19:55:13 IST" duration-ms="1840" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.flipkart.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BLaunchApp -->
-        <test-method signature="CSearchIteam()[pri:0, instance:Basic.ParamaterTest@4550bb58]" started-at="2024-01-12T19:55:13 IST" name="CSearchIteam" finished-at="2024-01-12T19:55:19 IST" duration-ms="5681" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CSearchIteam -->
-      </class> <!-- Basic.ParamaterTest -->
-    </test> <!-- flipkart.com -->
-    <test started-at="2024-01-12T19:55:19 IST" name="Veryify" finished-at="2024-01-12T19:55:38 IST" duration-ms="19014">
-      <class name="Basic.ParamaterTest">
-        <test-method signature="AStartBrowser(java.lang.String)[pri:0, instance:Basic.ParamaterTest@175c2241]" started-at="2024-01-12T19:55:19 IST" name="AStartBrowser" finished-at="2024-01-12T19:55:22 IST" duration-ms="2924" status="PASS">
+        <test-method signature="AStartBrowser(java.lang.String)[pri:0, instance:Basic.ParamaterTest@4550bb58]" started-at="2024-01-13T11:26:05 IST" name="AStartBrowser" finished-at="2024-01-13T11:26:09 IST" duration-ms="4302" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AStartBrowser -->
-        <test-method signature="BLaunchApp(java.lang.String)[pri:0, instance:Basic.ParamaterTest@175c2241]" started-at="2024-01-12T19:55:22 IST" name="BLaunchApp" finished-at="2024-01-12T19:55:24 IST" duration-ms="2352" status="PASS">
+        <test-method signature="BLaunchApp(java.lang.String)[pri:0, instance:Basic.ParamaterTest@4550bb58]" started-at="2024-01-13T11:26:09 IST" name="BLaunchApp" finished-at="2024-01-13T11:26:11 IST" duration-ms="1917" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,27 +29,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BLaunchApp -->
-        <test-method signature="CSearchIteam()[pri:0, instance:Basic.ParamaterTest@175c2241]" started-at="2024-01-12T19:55:24 IST" name="CSearchIteam" finished-at="2024-01-12T19:55:30 IST" duration-ms="6316" status="PASS">
+        <test-method signature="CSearchIteam()[pri:0, instance:Basic.ParamaterTest@4550bb58]" started-at="2024-01-13T11:26:11 IST" name="CSearchIteam" finished-at="2024-01-13T11:26:18 IST" duration-ms="6280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CSearchIteam -->
-        <test-method signature="DPlaceOrder()[pri:0, instance:Basic.ParamaterTest@175c2241]" started-at="2024-01-12T19:55:30 IST" name="DPlaceOrder" finished-at="2024-01-12T19:55:38 IST" duration-ms="7410" status="PASS">
+        <test-method signature="DPlaceOrder()[pri:0, instance:Basic.ParamaterTest@4550bb58]" started-at="2024-01-13T11:26:18 IST" name="DPlaceOrder" finished-at="2024-01-13T11:26:26 IST" duration-ms="8512" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DPlaceOrder -->
       </class> <!-- Basic.ParamaterTest -->
     </test> <!-- Veryify -->
-    <test started-at="2024-01-12T19:55:38 IST" name="logincart" finished-at="2024-01-12T19:55:43 IST" duration-ms="5412">
+    <test started-at="2024-01-13T11:26:26 IST" name="logincart" finished-at="2024-01-13T11:26:32 IST" duration-ms="5405">
       <class name="Basic.ParamaterTest">
-        <test-method signature="ELogin()[pri:0, instance:Basic.ParamaterTest@776aec5c]" started-at="2024-01-12T19:55:38 IST" name="ELogin" finished-at="2024-01-12T19:55:43 IST" duration-ms="5134" status="PASS">
+        <test-method signature="ELogin()[pri:0, instance:Basic.ParamaterTest@175c2241]" started-at="2024-01-13T11:26:26 IST" name="ELogin" finished-at="2024-01-13T11:26:31 IST" duration-ms="5219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ELogin -->
-        <test-method signature="Fquit()[pri:0, instance:Basic.ParamaterTest@776aec5c]" started-at="2024-01-12T19:55:43 IST" name="Fquit" finished-at="2024-01-12T19:55:43 IST" duration-ms="268" status="PASS">
+        <test-method signature="Fquit()[pri:0, instance:Basic.ParamaterTest@175c2241]" started-at="2024-01-13T11:26:31 IST" name="Fquit" finished-at="2024-01-13T11:26:32 IST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fquit -->
       </class> <!-- Basic.ParamaterTest -->
     </test> <!-- logincart -->
+    <test started-at="2024-01-13T11:26:32 IST" name="Googlewebsite" finished-at="2024-01-13T11:26:32 IST" duration-ms="0">
+    </test> <!-- Googlewebsite -->
   </suite> <!-- flipkart -->
 </testng-results>

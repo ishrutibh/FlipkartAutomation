@@ -1,10 +1,11 @@
 <suite name="flipkart">
 	
 	<parameter name="url" value="https://www.flipkart.com/" />
-	<test name="flipkart.com">
+	<parameter name="sleepTime" value="5000"/>
+	<test name="flipkart.com" enabled="false">
 		<parameter name="browserName" value="chrome"/>
 		<classes>
-			<class name="Basic.ParamaterTest">
+			<class name="Basic.ParamaterTest" >
 				<methods>
 					<include name="AStartBrowser"/>
 					<include name="BLaunchApp"/>
@@ -35,6 +36,18 @@
 					
 					<include name="ELogin"/>	
 					<include name="Fquit"/>						
+					</methods>
+			</class>
+		</classes>
+		</test>
+		<test name="Googlewebsite">
+		<parameter name="browserName" value="chrome"/>
+		<classes>
+			<class name="Basic.ParamaterTest">
+				<methods>
+					
+					<include name="GoogleTest"/>	
+								
 					</methods>
 			</class>
 		</classes>

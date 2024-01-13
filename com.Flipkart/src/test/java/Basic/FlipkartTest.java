@@ -7,6 +7,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -52,14 +54,22 @@ public class FlipkartTest {
 		 Thread.sleep(4000);
 		 //driver.quit();
 	}
-	
+	@Parameters("sleepTime")
 	@Test
-	public void DLogin() throws Throwable
+	public void DLogin(Long sleepTime) throws Throwable
 	{
 		driver.findElement(By.xpath("//input[@type='text']")).sendKeys("78999912164");
 		//driver.findElement(By.xpath("button[@class='_2KpZ6l _20xBvF _3AWRsL']")).click();
-		Thread.sleep(5000);
-		driver.quit();
+		Thread.sleep(sleepTime);
+		
+	}
+	@AfterTest
+	@Test
+	public void GoogleTest()
+	{
+		driver.get("https://www.google.com");
+		Thread.sleep(2000);
+		driver.quit();;
 	}
 		}
 

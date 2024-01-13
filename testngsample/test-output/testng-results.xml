@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-13T17:22:29 IST" name="Default suite" finished-at="2024-01-13T17:22:29 IST" duration-ms="88">
+    <groups>
+    </groups>
+    <test started-at="2024-01-13T17:22:29 IST" name="Default test" finished-at="2024-01-13T17:22:29 IST" duration-ms="88">
+      <class name="basic.FlightBookingTest">
+        <test-method signature="Login()[pri:1, instance:basic.FlightBookingTest@6adbc9d]" started-at="2024-01-13T17:22:29 IST" name="Login" finished-at="2024-01-13T17:22:29 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="SearchForTheFlight()[pri:2, instance:basic.FlightBookingTest@6adbc9d]" started-at="2024-01-13T17:22:29 IST" name="SearchForTheFlight" finished-at="2024-01-13T17:22:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchForTheFlight -->
+        <test-method signature="BooktheFlight()[pri:3, instance:basic.FlightBookingTest@6adbc9d]" started-at="2024-01-13T17:22:29 IST" name="BooktheFlight" finished-at="2024-01-13T17:22:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BooktheFlight -->
+        <test-method signature="SavetheTicket()[pri:4, instance:basic.FlightBookingTest@6adbc9d]" started-at="2024-01-13T17:22:29 IST" name="SavetheTicket" finished-at="2024-01-13T17:22:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SavetheTicket -->
+        <test-method signature="Logout()[pri:5, instance:basic.FlightBookingTest@6adbc9d]" started-at="2024-01-13T17:22:29 IST" name="Logout" finished-at="2024-01-13T17:22:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- basic.FlightBookingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
